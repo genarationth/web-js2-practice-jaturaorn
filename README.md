@@ -13,21 +13,21 @@ Work in pairs to complete the following table:
 
 | Value to be converted | number() | String() | Boolean() |
 |-----------------------|----------|----------|-----------|
-| false                 |          |          |           |
-| true                  |          |          |           |
-| 0                     |          |          |           |
-| 1                     |          |          |           |
-| “0”                   |          |          |           |
-| “000”                 |          |          |           |
-| “1”                   |          |          |           |
-| NaN                   |          |          |           |
-| Infinity              |          |          |           |
-| -Infinity             |          |          |           |
-| “”                    |          |          |           |
-| “20”                  |          |          |           |
-| “Twenty”              |          |          |           |
-| null                  |          |          |           |
-| undefinited           |          |          |           |
+| false                 |    -     |  'false' |   false   |
+| true                  |    -     |  'true'  |   true    |
+| 0                     |    0     |    '0'   |     -     |
+| 1                     |    1     |    '1'   |     -     |
+| “0”                   |    0     |    “0”   |     -     |
+| “000”                 |   000    |   “000”  |     -     |
+| “1”                   |    1     |    “1”   |     -     |
+| NaN                   |   NaN    |    NaN   |    NaN    |
+| Infinity              | Infinity |'Infinity'|     -     |
+| -Infinity             |-Infinity |'-Infinity'|    -     |
+| “”                    |   null   |   null   |   null    |
+| “20”                  |    20    |   “20”   |     -     |
+| “Twenty”              |     -    | “Twenty” |     -     |
+| null                  |   null   |  null    |   null    |
+| undefinited           |undefinited| undefinited|undefinited|
 
 
 ## Part 2:  New contender
